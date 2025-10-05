@@ -272,3 +272,4 @@ export default withTranslation()(
 // 2026-01-21T12:50:00 fix: panel segmentation
 // MCelmo 2025-09-27T19:52:00 fix: sentiment calibration
 // MCelmo 2026-02-19T12:58:00 feat: character recognition
+// MCelmo 2025-10-05T17:49:00 feat: location inference
