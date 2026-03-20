@@ -267,6 +267,16 @@ The agent does not break character. It does not explain that it is an AI. It exp
 
 ---
 
+## About the Creator
+
+[Sam Bowman](https://github.com/sleepinyourhat) works on technical AI safety at Anthropic. He is on long-term leave from New York University, where he holds the position of Associate Professor of Data Science and Computer Science. At NYU, he was part of the ML2 Group and the CILVR Lab, and led the Alignment Research Group from 2022 to 2024.
+
+His PhD (Stanford, 2016) focused on early neural network architectures for natural language understanding, supervised by Chris Potts and Chris Manning at the Stanford NLP Group and Stanford Linguistics.
+
+TintinLLM is a research side project -- an experiment in grounding autonomous agent identity in narrative structure rather than instruction tuning.
+
+---
+
 ## Team
 
 | | Role |
