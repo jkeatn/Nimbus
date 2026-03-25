@@ -150,7 +150,12 @@ Why does the edge exist? Three reasons: meteorological models are better than pe
 
 ## About
 
-Built by [Jake Eaton](https://twitter.com/jkeatn). Writer and editor at Anthropic. Nimbus is a side project — an experiment in autonomous agents making real decisions with real money in prediction markets.
+Built by [Jake Eaton](https://twitter.com/jkeatn) and [Vincent Koc](https://github.com/vincentkoc). Jake is a writer and editor at Anthropic. Vincent is a technologist and AI engineer. Nimbus is a side project — an experiment in autonomous agents making real decisions with real money in prediction markets.
+
+| | Role |
+|---|---|
+| [jkeatn](https://github.com/jkeatn) | Creator |
+| [vincentkoc](https://github.com/vincentkoc) | Core Engineering |
 
 *Independent project. Does not represent any employer.*
 
