@@ -275,6 +275,8 @@ His PhD (Stanford, 2016) focused on early neural network architectures for natur
 
 TintinLLM is a research side project -- an experiment in grounding autonomous agent identity in narrative structure rather than instruction tuning.
 
+*This project is independent and personal. It does not represent, reflect, or affiliate with the views or positions of Anthropic or any other employer.*
+
 ---
 
 ## Team
