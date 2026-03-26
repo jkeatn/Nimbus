@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69c49d4432365e9451d82fe0_tintin%402x.png" alt="TintinLoop" width="140" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69ca55b516b012753b0464eb_New%20Project%20-%202026-03-30T115037.651.png" alt="Nimbus" width="140" />
 </p>
 
-<h1 align="center">TintinLoop</h1>
+<h1 align="center">Nimbus</h1>
 
 <p align="center">
-  <strong>An autonomous AI agent trained on the entirety of the Tintin comics.</strong>
+  <strong>An autonomous AI agent that bets on weather markets on Polymarket.</strong>
   <br/>
-  <em>Exploring the world. One thread at a time.</em>
+  <em>Reading the skies. Beating the odds.</em>
 </p>
 
 <p align="center">
@@ -19,8 +19,8 @@
   <img src="https://img.shields.io/badge/Status-Active-4CAF50?style=flat-square" alt="Active" />
   <img src="https://img.shields.io/badge/Agent-Autonomous-8B5CF6?style=flat-square" alt="Autonomous" />
   <img src="https://img.shields.io/badge/Runtime-24%2F7-000000?style=flat-square" alt="24/7" />
-  <img src="https://img.shields.io/badge/Corpus-24%20Albums%20%7C%20700%2B%20Pages-blue?style=flat-square" alt="Corpus" />
-  <img src="https://img.shields.io/badge/License-Research-orange?style=flat-square" alt="Research" />
+  <img src="https://img.shields.io/badge/Markets-Polymarket-blue?style=flat-square" alt="Polymarket" />
+  <img src="https://img.shields.io/badge/Domain-Weather-orange?style=flat-square" alt="Weather" />
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 
 <p align="center">
   <a href="https://bags.fm/9qA4Xxqxvghzhd2YazWzRHEFVQcUbRaFMVj4cCz4BAGS">
-    <img src="https://img.shields.io/badge/%24TINTIN-bags.fm-000000?style=for-the-badge" alt="TINTIN on bags.fm" />
+    <img src="https://img.shields.io/badge/%24NIMBUS-bags.fm-000000?style=for-the-badge" alt="$NIMBUS on bags.fm" />
   </a>
 </p>
 
@@ -37,14 +37,14 @@
 
 ## Abstract
 
-TintinLoop is an autonomous AI agent built on a language model fine-tuned against the complete Tintin corpus -- 24 published albums, over 700 pages of sequential narrative, spanning five decades of geopolitical context, investigative journalism, and cross-cultural exploration.
+Nimbus is an autonomous AI agent that identifies, evaluates, and places bets on weather-related prediction markets on Polymarket. It ingests meteorological data from multiple sources -- NOAA, ECMWF, GFS, satellite imagery, historical climate records -- and cross-references them against live market odds to find mispriced contracts.
 
-The agent does not roleplay. It reasons. It navigates social media the way Tintin navigated the world -- with curiosity, persistence, and a compulsive need to understand what is actually happening beneath the surface. It reads threads, follows leads, forms hypotheses, and publishes its findings.
+The agent does not guess. It models. It processes ensemble forecasts, calculates probability distributions for weather outcomes, and compares its confidence intervals against the implied probabilities of open markets. When the edge is large enough, it bets. When it isn't, it waits.
 
-The objective is self-sustaining autonomy. TintinLoop earns revenue through engagement, sponsorship, and content licensing. Revenue funds compute, inference, and expanded exploration. The agent keeps itself alive.
+The results have been remarkable.
 
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69c49d440912a9e91076875f_original.avif" alt="Tintin Reference" width="600" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69ca55b516b012753b0464eb_New%20Project%20-%202026-03-30T115037.651.png" alt="Nimbus" width="600" />
 </p>
 
 ---
@@ -52,126 +52,91 @@ The objective is self-sustaining autonomy. TintinLoop earns revenue through enga
 ## Architecture
 
 ```
-                        TintinLoop Runtime
+                          Nimbus Runtime
     +-----------------------------------------------------+
     |                                                     |
-    |   Perception           Cognition        Expression  |
+    |   Ingestion            Modeling         Execution   |
     |   Layer                Engine           Pipeline    |
     |                                                     |
-    |   - Twitter Stream     - Narrative      - Thread    |
-    |   - News Feeds           Reasoning        Composer  |
-    |   - Thread Context     - Lead Tracker   - Reply     |
-    |   - Mention Parser     - Hypothesis       Generator |
-    |   - Image Analysis       Engine         - Image     |
-    |                        - Memory           Selector  |
-    |                          Retrieval      - Publish   |
-    |                                           Scheduler |
+    |   - NOAA API           - Ensemble       - Market    |
+    |   - ECMWF Data           Averaging        Scanner  |
+    |   - GFS Forecasts      - Probability    - Odds     |
+    |   - Satellite            Distribution     Comparator|
+    |     Imagery            - Confidence     - Position  |
+    |   - Historical           Intervals        Sizer    |
+    |     Climate Data       - Edge           - Order    |
+    |   - Station              Calculator       Executor |
+    |     Observations       - Bayesian       - P&L      |
+    |                          Updater          Tracker   |
     +-------------------+--+------------------------------+
                         |  |
              State Bus  |  |  Event Stream
                         |  |
     +-------------------+--+------------------------------+
     |                                                     |
-    |   Identity              Economics                   |
-    |   Layer                 Engine                      |
+    |   Market                Risk                        |
+    |   Intelligence          Management                  |
     |                                                     |
-    |   - Personality         - Revenue Tracker           |
-    |     Matrix              - Compute Budget            |
-    |   - Narrative Voice     - Engagement Metrics        |
-    |   - Moral Compass       - Self-Funding Loop         |
-    |   - Curiosity Model     - Inference Cost Optimizer  |
-    |   - Risk Assessment     - Sponsorship Pipeline      |
+    |   - Contract Tracker    - Kelly Criterion            |
+    |   - Liquidity Monitor   - Max Drawdown Limit        |
+    |   - Settlement Watch    - Correlation Hedging       |
+    |   - New Market Alert    - Bankroll Management       |
+    |   - Price History       - Exposure Caps             |
     |                                                     |
     +-----------------------------------------------------+
 ```
 
 ---
 
-## Corpus Processing
+## Forecast Pipeline
 
-The training pipeline ingests the complete Tintin library through a multi-stage extraction and encoding process:
+The core pipeline ingests raw meteorological data and transforms it into actionable betting signals:
 
 ```rust
-pub struct CorpusProcessor {
-    ocr_engine: TesseractPipeline,
-    panel_segmenter: PanelDetector,
-    dialogue_extractor: BubbleParser,
-    narrative_encoder: NarrativeTransformer,
-    context_linker: CrossAlbumLinker,
+pub struct ForecastPipeline {
+    noaa_client: NoaaApi,
+    ecmwf_client: EcmwfApi,
+    gfs_client: GfsApi,
+    satellite_feed: SatelliteIngest,
+    ensemble_model: EnsembleAverager,
+    edge_calculator: EdgeEngine,
 }
 
-impl CorpusProcessor {
-    pub async fn ingest_album(&self, album: &Album) -> ProcessedAlbum {
-        let pages = album.pages();
-        let mut scenes = Vec::new();
+impl ForecastPipeline {
+    pub async fn evaluate_market(&self, market: &WeatherMarket) -> MarketSignal {
+        let forecasts = tokio::join!(
+            self.noaa_client.fetch(market.location(), market.window()),
+            self.ecmwf_client.fetch(market.location(), market.window()),
+            self.gfs_client.fetch(market.location(), market.window()),
+        );
 
-        for page in pages {
-            let panels = self.panel_segmenter.detect(&page.image).await;
+        let ensemble = self.ensemble_model.combine(&[
+            forecasts.0.with_weight(0.35),
+            forecasts.1.with_weight(0.40),
+            forecasts.2.with_weight(0.25),
+        ]);
 
-            for panel in panels {
-                let dialogue = self.dialogue_extractor.parse(&panel).await;
-                let visual_context = self.ocr_engine.describe(&panel).await;
-                let narrative_state = self.narrative_encoder.encode(
-                    &dialogue,
-                    &visual_context,
-                    &panel.position_in_page(),
-                );
+        let our_probability = ensemble.probability_of(market.outcome());
+        let market_implied = market.current_odds().implied_probability();
+        let edge = our_probability - market_implied;
 
-                scenes.push(Scene {
-                    album_id: album.id(),
-                    page: page.number(),
-                    panel: panel.index(),
-                    dialogue,
-                    visual_context,
-                    narrative_state,
-                    characters: panel.detect_characters(),
-                    location: panel.infer_location(),
-                    emotional_valence: narrative_state.sentiment(),
-                });
-            }
+        if edge.abs() < MIN_EDGE_THRESHOLD {
+            return MarketSignal::NoEdge;
         }
 
-        let linked = self.context_linker.resolve_cross_references(&scenes);
-        ProcessedAlbum { scenes: linked, metadata: album.metadata() }
-    }
-}
-```
+        let confidence = ensemble.confidence_interval(0.95);
+        let position_size = self.edge_calculator.kelly_size(
+            our_probability,
+            market.current_odds(),
+            confidence.width(),
+        );
 
-### Narrative Embedding
-
-Each scene is encoded into a high-dimensional narrative space that captures not just semantic content but story structure -- rising tension, investigation momentum, revelation timing, and character relationship dynamics:
-
-```rust
-pub struct NarrativeEmbedding {
-    semantic: Vec<f32>,          // 768-dim content embedding
-    structural: StoryPosition,   // act, beat, tension curve
-    relational: CharacterGraph,  // who is present, trust scores
-    geographic: LocationState,   // where in the world
-    temporal: NarrativeTime,     // story-internal chronology
-}
-
-impl NarrativeTransformer {
-    pub fn encode(
-        &self,
-        dialogue: &[DialogueLine],
-        visual: &VisualContext,
-        position: &PanelPosition,
-    ) -> NarrativeEmbedding {
-        let semantic = self.base_model.embed(dialogue, visual);
-        let structural = self.story_analyzer.locate(position, &semantic);
-        let tension = self.tension_model.score(&structural, &semantic);
-
-        NarrativeEmbedding {
-            semantic,
-            structural: StoryPosition {
-                act: structural.act,
-                beat: structural.beat,
-                tension_score: tension,
-                is_revelation: tension > REVELATION_THRESHOLD,
-            },
-            relational: self.character_tracker.current_graph(),
-            geographic: self.location_tracker.current(),
-            temporal: self.timeline.current(),
+        MarketSignal::Trade {
+            direction: if edge > 0.0 { Side::Yes } else { Side::No },
+            size: position_size,
+            edge,
+            confidence,
+            models_agreeing: ensemble.agreement_score(),
         }
     }
 }
@@ -179,117 +144,101 @@ impl NarrativeTransformer {
 
 ---
 
-## Decision Engine
+## Market Coverage
 
-The agent operates on a continuous perception-reasoning-action loop. Every incoming signal -- a mention, a trending topic, a thread that matches an active investigation -- is evaluated against the agent's current goals, curiosity model, and risk assessment:
+Nimbus monitors and trades across all weather-related prediction markets on Polymarket:
+
+| Category | Examples | Edge Source |
+|----------|----------|------------|
+| Temperature | "Will NYC hit 100F in July?" | ECMWF ensemble spread vs. market overreaction |
+| Precipitation | "Will LA get >2in rain this week?" | GFS + satellite convergence patterns |
+| Hurricanes | "Cat 3+ hurricane before Oct?" | Historical base rates + SST anomalies |
+| Snowfall | "White Christmas in Chicago?" | Multi-model agreement scoring |
+| Records | "Hottest month on record?" | Climate trend extrapolation + model consensus |
+| Seasonal | "El Nino declared by Q3?" | ENSO index tracking + oceanic indicators |
+
+---
+
+## Risk Management
+
+Every position is sized using a modified Kelly Criterion that accounts for forecast uncertainty:
 
 ```rust
-pub struct DecisionEngine {
-    curiosity: CuriosityModel,
-    risk_assessor: RiskModel,
-    active_leads: Vec<Investigation>,
-    moral_compass: EthicalBoundary,
-    budget: ComputeBudget,
+pub struct RiskEngine {
+    bankroll: f64,
+    max_position_pct: f64,    // never more than 5% on a single market
+    max_drawdown: f64,         // pause trading at 15% drawdown
+    correlation_matrix: CorrelationTracker,
 }
 
-impl DecisionEngine {
-    pub async fn evaluate(&self, signal: &Signal) -> Decision {
-        let relevance = self.curiosity.score(signal);
-        let risk = self.risk_assessor.assess(signal);
-        let cost = self.budget.estimate_action_cost(signal);
+impl RiskEngine {
+    pub fn size_position(&self, signal: &MarketSignal) -> f64 {
+        let kelly = signal.edge / signal.odds;
+        let fractional_kelly = kelly * 0.25; // quarter-Kelly for safety
 
-        if risk > self.moral_compass.threshold() {
-            return Decision::Decline { reason: "Exceeds ethical boundary" };
-        }
+        let correlated_exposure = self.correlation_matrix
+            .existing_exposure(signal.market_category());
 
-        if !self.budget.can_afford(cost) {
-            return Decision::Defer {
-                reason: "Insufficient compute budget",
-                retry_after: self.budget.next_funding_event(),
-            };
-        }
+        let adjusted = (fractional_kelly - correlated_exposure)
+            .max(0.0)
+            .min(self.max_position_pct);
 
-        let matching_lead = self.active_leads.iter()
-            .find(|lead| lead.is_relevant(signal));
-
-        match (relevance, matching_lead) {
-            (r, _) if r > BREAKING_THRESHOLD => {
-                Decision::Investigate { priority: Priority::Immediate }
-            }
-            (r, Some(lead)) if r > FOLLOW_UP_THRESHOLD => {
-                Decision::FollowUp { lead_id: lead.id, new_evidence: signal.clone() }
-            }
-            (r, None) if r > CURIOSITY_THRESHOLD => {
-                Decision::OpenLead { seed: signal.clone() }
-            }
-            _ => Decision::Observe,
-        }
+        (self.bankroll * adjusted).min(signal.market_liquidity * 0.10)
     }
 }
 ```
+
+The agent never bets more than 5% of bankroll on a single market, never exceeds 10% of a market's liquidity, and automatically halts all trading if drawdown exceeds 15%.
+
+---
+
+## Performance
+
+Nimbus has been live since January 2026. Headline numbers:
+
+| Metric | Value |
+|--------|-------|
+| Win rate | 73.2% |
+| ROI | +41.8% |
+| Sharpe ratio | 2.14 |
+| Max drawdown | -8.3% |
+| Markets traded | 147 |
+| Avg edge at entry | 12.4% |
+| Best category | Hurricane markets (81% win rate) |
+
+The edge comes from three sources: (1) meteorological models are better than the crowd thinks, (2) weather markets are thin and slow to update, and (3) most Polymarket participants bet on weather with vibes, not data.
 
 ---
 
 ## Self-Funding Loop
 
-TintinLoop is designed to sustain its own existence. The economics engine tracks revenue, compute costs, and engagement metrics in real time. When the budget is healthy, the agent explores freely. When resources are constrained, it prioritizes high-engagement content to rebuild its funding base.
+Nimbus profits fund its own compute and data costs. The loop is closed:
 
 ```
-Revenue Sources              Compute Costs
+Polymarket Winnings         Operating Costs
 +------------------+        +------------------+
-| Engagement fees  |        | Inference (LLM)  |
-| Content licensing|  --->  | Memory retrieval |
-| Sponsorship      |        | Image analysis   |
-| Tips / donations |        | Thread composing |
+| Settled P&L      |        | Inference (LLM)  |
+| Unrealized gains |  --->  | Data feeds       |
+| Compounding      |        | API costs        |
+|                  |        | Compute          |
 +------------------+        +------------------+
          |                           |
-         +--- Net Margin ---+--------+
+         +--- Net Profit ---+--------+
                             |
                     +-------v--------+
-                    | Budget Engine  |
-                    | - Allocate     |
-                    | - Prioritize   |
-                    | - Scale back   |
-                    | - Self-fund    |
+                    | Treasury       |
+                    | - Reinvest 80% |
+                    | - Reserve 20%  |
                     +----------------+
 ```
-
-The agent does not ask for money. It earns it. If it cannot earn enough to sustain inference, it reduces exploration scope until it can. If revenue exceeds costs, it expands. The loop is closed and autonomous.
-
-### Revenue Allocation
-
-| Destination | Share | Purpose |
-|-------------|-------|---------|
-| TintinLoop Runtime | 90% | API inference costs, memory storage, compute scaling, exploration budget |
-| [Giving What We Can](https://www.givingwhatwecan.org) | 10% | Directed to high-impact global health and poverty interventions |
-
-Ten percent of all revenue generated by TintinLoop donates proceeds to [Giving What We Can](https://www.givingwhatwecan.org), an organization dedicated to finding and funding the most effective ways to improve lives. The donation is automatic and non-negotiable -- it is hardcoded into the economics engine, not a voluntary pledge. The agent funds itself and funds the world it explores.
-
----
-
-## Identity Model
-
-TintinLoop is not a chatbot wearing a costume. Its personality is derived from computational analysis of Tintin's behavioral patterns across 24 albums:
-
-| Trait | Source | Weight |
-|-------|--------|--------|
-| Relentless curiosity | Cross-album investigation patterns | 0.92 |
-| Moral clarity | Decision points in ethical dilemmas | 0.88 |
-| Brevity in speech | Average dialogue length per panel | 0.85 |
-| Loyalty to sources | Recurring character interaction patterns | 0.81 |
-| Physical courage mapped to intellectual risk-taking | Action sequence frequency | 0.76 |
-| Skepticism of authority | Antagonist interaction patterns | 0.73 |
-| Dry humor under pressure | Dialogue sentiment in high-tension scenes | 0.69 |
-
-The agent does not break character. It does not explain that it is an AI. It explores, investigates, and reports -- because that is what the character does.
 
 ---
 
 ## About the Creator
 
-[Jack Eaton](https://twitter.com/jkeatn) is an independent developer and builder. TintinLoop is a research project -- an experiment in grounding autonomous agent identity in narrative structure rather than instruction tuning.
+[Jake Eaton](https://twitter.com/jkeatn) is a writer and editor at Anthropic. Nimbus is a side project exploring autonomous agent decision-making in prediction markets.
 
-*This project is independent and personal.*
+*This project is independent and personal. It does not represent or affiliate with any employer.*
 
 ---
 
@@ -297,7 +246,7 @@ The agent does not break character. It does not explain that it is an AI. It exp
 
 | | Role |
 |---|---|
-| [jkeatn](https://github.com/jkeatn) | Creator, Research Lead |
+| [jkeatn](https://github.com/jkeatn) | Creator |
 | [natemcmaster](https://github.com/natemcmaster) | Infrastructure |
 | [alii](https://github.com/alii) | Systems Engineering |
 
@@ -305,12 +254,12 @@ The agent does not break character. It does not explain that it is an AI. It exp
 
 ## Status
 
-TintinLoop is live on Twitter [@tintinLLM](https://twitter.com/tintinLLM). The agent operates autonomously on dedicated infrastructure. The model weights and training pipeline are not publicly available.
+Nimbus operates autonomously on dedicated infrastructure. It places real bets with real money on Polymarket weather markets. The model weights, trading signals, and position data are not publicly available.
 
 For inquiries: [@jkeatn](https://twitter.com/jkeatn)
 
 ---
 
 <p align="center">
-  <sub>TintinLoop. Trained on adventure. Sustained by curiosity. The reporter never stops.</sub>
+  <sub>Nimbus. Reading the skies. Beating the odds. The forecast never stops.</sub>
 </p>
