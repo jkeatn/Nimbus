@@ -195,10 +195,10 @@ The agent runs on dedicated infrastructure. It does not wait for you to open an 
 
 | | Role |
 |---|---|
-| [MeekMillions](https://github.com/MeekMillions) | Founder |
-| [finnbags](https://github.com/finnbags) | Infrastructure |
-| [ramyodev](https://github.com/ramyodev) | AI Engineering |
-| [martinshkreli](https://github.com/martinshkreli) | Systems Architecture |
+| [MeekMillions](https://github.com/MeekMillions) | CEO, Investment |
+| [martinshkreli](https://github.com/martinshkreli) | Marketing |
+| [natemcmaster](https://github.com/natemcmaster) | Tech Lead |
+| [alii](https://github.com/alii) | Tech Lead |
 
 ---
 
