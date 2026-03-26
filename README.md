@@ -22,10 +22,6 @@
   <img src="https://img.shields.io/badge/Integrations-Gmail%20%7C%20Outlook%20%7C%20Slack%20%7C%20Notion-blue?style=flat-square" alt="Integrations" />
 </p>
 
-<p align="center">
-  <code>Contract Address: SOON</code>
-</p>
-
 ---
 
 ## The Problem
