@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69ca55b516b012753b0464eb_New%20Project%20-%202026-03-30T115037.651.png" alt="Nimbus" width="160" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69ca55b516b012753b0464eb_New%20Project%20-%202026-03-30T115037.651.png" alt="Rainmaker" width="160" />
 </p>
 
-<h1 align="center">Nimbus</h1>
+<h1 align="center">Rainmaker</h1>
 
 <p align="center">
   <strong>Autonomous weather prediction agent on Polymarket.</strong>
@@ -26,9 +26,9 @@
 
 ---
 
-## What is Nimbus?
+## What is Rainmaker?
 
-Nimbus is an autonomous agent that bets on weather prediction markets on [Polymarket](https://polymarket.com). It pulls real-time meteorological data from NOAA, ECMWF, and GFS, builds ensemble probability distributions, and compares them against live market odds. When the market is wrong about the weather, Nimbus bets against it.
+Rainmaker is an autonomous agent that bets on weather prediction markets on [Polymarket](https://polymarket.com). It pulls real-time meteorological data from NOAA, ECMWF, and GFS, builds ensemble probability distributions, and compares them against live market odds. When the market is wrong about the weather, Rainmaker bets against it.
 
 It has been live since January 2026. It is profitable.
 
@@ -70,7 +70,7 @@ It has been live since January 2026. It is profitable.
 | Records | "Hottest month on record?" | Climate trend + model consensus |
 | Seasonal | "El Nino declared by Q3?" | ENSO index + oceanic thermal inertia |
 
-The best edge is in hurricane markets. The crowd panics or sleeps — Nimbus reads sea surface temperatures.
+The best edge is in hurricane markets. The crowd panics or sleeps — Rainmaker reads sea surface temperatures.
 
 ---
 
@@ -115,14 +115,14 @@ impl RiskEngine {
 | Avg edge at entry | 12.4% |
 | Best category | Hurricanes (81%) |
 
-Why does the edge exist? Three reasons: meteorological models are better than people think, weather markets on Polymarket are thin and slow to reprice, and most participants bet on weather with gut feeling. Nimbus uses data.
+Why does the edge exist? Three reasons: meteorological models are better than people think, weather markets on Polymarket are thin and slow to reprice, and most participants bet on weather with gut feeling. Rainmaker uses data.
 
 ---
 
 ## Architecture
 
 ```
-                          Nimbus Runtime
+                          Rainmaker Runtime
     +-----------------------------------------------------+
     |                                                     |
     |   Ingestion            Modeling         Execution   |
@@ -150,7 +150,7 @@ Why does the edge exist? Three reasons: meteorological models are better than pe
 
 ## About
 
-Built by [Jake Eaton](https://twitter.com/jkeatn) and [Vincent Koc](https://github.com/vincentkoc). Jake is a writer and editor at Anthropic. Vincent is a technologist and AI engineer. Nimbus is a side project — an experiment in autonomous agents making real decisions with real money in prediction markets.
+Built by [Jake Eaton](https://twitter.com/jkeatn) and [Vincent Koc](https://github.com/vincentkoc). Jake is a writer and editor at Anthropic. Vincent is a technologist and AI engineer. Rainmaker is a side project — an experiment in autonomous agents making real decisions with real money in prediction markets.
 
 | | Role |
 |---|---|
@@ -162,5 +162,5 @@ Built by [Jake Eaton](https://twitter.com/jkeatn) and [Vincent Koc](https://gith
 ---
 
 <p align="center">
-  <sub>Nimbus. The forecast never stops.</sub>
+  <sub>Rainmaker. The forecast never stops.</sub>
 </p>
