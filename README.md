@@ -1,31 +1,31 @@
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69cae0837d5e361906d40c43_New%20Project%20-%202026-03-30T214341.419.png" alt="Rainmaker Banner" width="700" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69cff59be8cff23c09c40228_1500x500%20(7).png" alt="ShellBot Banner" width="700" />
 </p>
 
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69cae0b9ee745465d1c584dd_New%20Project%20-%202026-03-30T214437.731.png" alt="Rainmaker" width="160" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69cff5912a3222297e1c501b_shellbot.png" alt="ShellBot" width="160" />
 </p>
 
-<h1 align="center">Rainmaker</h1>
+<h1 align="center">ShellBot</h1>
 
 <p align="center">
-  <strong>Autonomous weather prediction agent on Polymarket.</strong>
+  <strong>Deploy your AI agent in 30 seconds. No Docker. No CLI. No setup.</strong>
   <br/>
-  <em>Forecasts don't lie. Markets do.</em>
+  <em>AI That Works For You. Secure by Default.</em>
 </p>
 
 <p align="center">
-  <a href="https://polymarket.com"><img src="https://img.shields.io/badge/Polymarket-Weather%20Markets-4F46E5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" alt="Polymarket" /></a>
+  <a href="https://shellbot.sh"><img src="https://img.shields.io/badge/Website-shellbot.sh-000000?style=flat-square&logo=safari&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/jkeatn"><img src="https://img.shields.io/badge/GitHub-jkeatn-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://twitter.com/jkeatn"><img src="https://img.shields.io/badge/Creator-@jkeatn-1DA1F2?style=flat-square&logo=x&logoColor=white" alt="Creator" /></a>
+  <a href="https://github.com/vincentkoc"><img src="https://img.shields.io/badge/GitHub-vincentkoc-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Win%20Rate-73.2%25-4CAF50?style=flat-square" alt="Win Rate" />
-  <img src="https://img.shields.io/badge/ROI-+41.8%25-4CAF50?style=flat-square" alt="ROI" />
-  <img src="https://img.shields.io/badge/Sharpe-2.14-8B5CF6?style=flat-square" alt="Sharpe" />
-  <img src="https://img.shields.io/badge/Markets-147-blue?style=flat-square" alt="Markets" />
-  <img src="https://img.shields.io/badge/Runtime-24%2F7-000000?style=flat-square" alt="24/7" />
+  <img src="https://img.shields.io/badge/Verified-Shell%20Corp-4CAF50?style=flat-square&logo=checkmarx&logoColor=white" alt="Verified" />
+  <img src="https://img.shields.io/badge/Built%20on-OpenClaw-8B5CF6?style=flat-square" alt="OpenClaw" />
+  <img src="https://img.shields.io/badge/Platform-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  <img src="https://img.shields.io/badge/Deploy-30s-blue?style=flat-square" alt="30s Deploy" />
+  <img src="https://img.shields.io/badge/Infra-Dedicated%20VM-orange?style=flat-square" alt="Dedicated VM" />
 </p>
 
 <p align="center">
@@ -34,141 +34,144 @@
 
 ---
 
-## What is Rainmaker?
+## What is ShellBot?
 
-Rainmaker is an autonomous agent that bets on weather prediction markets on [Polymarket](https://polymarket.com). It pulls real-time meteorological data from NOAA, ECMWF, and GFS, builds ensemble probability distributions, and compares them against live market odds. When the market is wrong about the weather, Rainmaker bets against it.
+ShellBot is a private AI agent that runs on your own dedicated machine — not a shared sandbox. It connects to WhatsApp and actually does things: sends emails, does research, manages your schedule, writes code, handles files. Set it up in minutes. No Docker. No CLI. No config files.
 
-It has been live since January 2026. It is profitable.
+Built on [OpenClaw](https://github.com) — the open-source AI agent framework you can trust.
 
 ---
 
 ## How it works
 
 ```
-   Weather Data                    Polymarket
-   +-----------+                   +-----------+
-   | NOAA      |                   | Open      |
-   | ECMWF     |----> Ensemble --->| Markets   |---> Edge?
-   | GFS       |     Probability   | Implied   |      |
-   | Satellite |     Distribution  | Odds      |      |
-   +-----------+                   +-----------+      |
-                                                      v
-                                              +---------------+
-                                              | Yes: Bet      |
-                                              | No:  Wait     |
-                                              +---------------+
+   You (WhatsApp)          ShellBot Agent           Services
+   +------------+         +---------------+        +------------+
+   |            |         |               |        | Gmail      |
+   | "Schedule  |-------->| Task Parser   |------->| Calendar   |
+   |  a meeting |         | Planner       |        | Web Search |
+   |  with Dan" |         | Executor      |        | Code Exec  |
+   |            |<--------| Guardrails    |<-------| File Mgmt  |
+   +------------+         +---------------+        +------------+
+                                |
+                          Dedicated VM
+                          (not shared)
 ```
 
-1. **Ingest** — continuous feed from NOAA, ECMWF, GFS, satellite imagery, and 40 years of climate records
-2. **Model** — weighted ensemble averaging across forecast models, producing probability distributions for every weather outcome with active markets
-3. **Compare** — agent probability vs. market implied probability. The gap is the edge
-4. **Bet** — when edge exceeds threshold, size position using quarter-Kelly, respecting bankroll and liquidity constraints
-5. **Settle** — track outcomes, update model weights based on calibration, compound profits
+1. **Message** — send a task via WhatsApp, plain English
+2. **Parse** — ShellBot breaks it into steps, identifies which tools to use
+3. **Execute** — emails, calendar events, research, code — handled automatically
+4. **Guardrails** — built-in safety checks prevent mistakes before they happen
+5. **Respond** — results delivered back to WhatsApp in seconds
 
 ---
 
-## Market coverage
+## Features
 
-| Category | Example | Edge source |
-|----------|---------|-------------|
-| Temperature | "NYC hits 100°F in July?" | Ensemble spread vs. crowd overreaction to headlines |
-| Precipitation | "LA gets >2in rain this week?" | GFS + satellite convergence |
-| Hurricanes | "Cat 3+ hurricane before October?" | SST anomalies + historical base rates |
-| Snowfall | "White Christmas in Chicago?" | Multi-model agreement scoring |
-| Records | "Hottest month on record?" | Climate trend + model consensus |
-| Seasonal | "El Nino declared by Q3?" | ENSO index + oceanic thermal inertia |
-
-The best edge is in hurricane markets. The crowd panics or sleeps — Rainmaker reads sea surface temperatures.
+| Feature | Description |
+|---------|-------------|
+| **Instant deploy** | Live in 30 seconds. No Docker, no CLI, no YAML |
+| **WhatsApp native** | Works where you already are |
+| **Dedicated machine** | Your own VM, not a shared container |
+| **Email & calendar** | Send emails, create events, manage inbox |
+| **Research** | Web search, summarize articles, compile reports |
+| **Code execution** | Write, run, and debug code in a sandboxed environment |
+| **File management** | Create, edit, organize documents |
+| **Built-in guardrails** | Safety checks that prevent destructive actions |
+| **Open-source core** | Built on OpenClaw — fully auditable |
 
 ---
 
-## Risk management
+## Security
 
-```rust
-pub struct RiskEngine {
-    bankroll: f64,
-    max_position: f64,         // 5% of bankroll per market
-    max_drawdown: f64,         // halt at 15%
-    correlation_tracker: CorrelationMatrix,
-}
+ShellBot is secure by default. Every agent runs on its own dedicated virtual machine — no shared resources, no cross-contamination, no multi-tenant risk.
 
-impl RiskEngine {
-    pub fn size(&self, edge: f64, odds: f64, category: &str) -> f64 {
-        let kelly = edge / odds;
-        let quarter_kelly = kelly * 0.25;
-        let correlated = self.correlation_tracker.exposure(category);
-        let adjusted = (quarter_kelly - correlated).clamp(0.0, self.max_position);
-        self.bankroll * adjusted
-    }
-}
+```
+Traditional AI Agents          ShellBot
++--------------------+        +--------------------+
+| Shared sandbox     |        | Dedicated VM       |
+| Multi-tenant       |        | Single-tenant      |
+| Shared memory      |        | Isolated memory    |
+| Shared network     |        | Private network    |
+| Hope for the best  |        | Guardrails built in|
++--------------------+        +--------------------+
 ```
 
-- Max 5% bankroll on any single market
-- Max 10% of a market's liquidity
-- Quarter-Kelly sizing (conservative)
-- Correlated exposure tracking across weather categories
-- Auto-halt at 15% drawdown
-
----
-
-## Performance
-
-| Metric | Value |
-|--------|-------|
-| Win rate | 73.2% |
-| ROI | +41.8% |
-| Sharpe ratio | 2.14 |
-| Max drawdown | -8.3% |
-| Markets traded | 147 |
-| Avg edge at entry | 12.4% |
-| Best category | Hurricanes (81%) |
-
-Why does the edge exist? Three reasons: meteorological models are better than people think, weather markets on Polymarket are thin and slow to reprice, and most participants bet on weather with gut feeling. Rainmaker uses data.
+- **Isolated compute** — your agent runs on its own machine
+- **No data sharing** — nothing leaves your VM unless you tell it to
+- **Action guardrails** — destructive actions require explicit confirmation
+- **Audit log** — every action is logged and reviewable
+- **Open-source** — the agent framework is fully auditable
 
 ---
 
 ## Architecture
 
 ```
-                          Rainmaker Runtime
+                          ShellBot Runtime
     +-----------------------------------------------------+
     |                                                     |
-    |   Ingestion            Modeling         Execution   |
+    |   Interface            Core              Services   |
     |                                                     |
-    |   - NOAA API           - Ensemble       - Market    |
-    |   - ECMWF API            Averaging        Scanner  |
-    |   - GFS API            - Bayesian       - Position  |
-    |   - Satellite Feed       Updating         Sizing   |
-    |   - Climate Archive    - Confidence     - Order    |
-    |                          Intervals        Execution|
-    |                        - Calibration    - P&L      |
-    |                          Tracking         Tracking |
+    |   - WhatsApp API       - Task Parser    - Gmail     |
+    |   - Message Queue      - Step Planner   - Calendar  |
+    |   - Auth Layer         - Tool Router    - Web       |
+    |                        - Guardrail        Search    |
+    |                          Engine         - Code      |
+    |                        - Memory           Sandbox   |
+    |                          Store          - File      |
+    |                        - Context          System    |
+    |                          Manager                    |
     +-------------------+--+------------------------------+
                         |  |
                         v  v
     +-----------------------------------------------------+
-    |   Risk Engine         |    Treasury                 |
-    |   - Kelly sizing      |    - Reinvest 80%           |
-    |   - Correlation hedge |    - Reserve 20%            |
-    |   - Drawdown monitor  |    - Self-funding loop      |
+    |   OpenClaw Engine     |    Infrastructure           |
+    |   - Agent framework   |    - Dedicated VM per user  |
+    |   - Tool registry     |    - Auto-scaling           |
+    |   - Safety layer      |    - Health monitoring      |
+    |   - Plugin system     |    - Zero-downtime deploys  |
     +-----------------------------------------------------+
 ```
 
 ---
 
-## About
+## Quick start
 
-Built by [Jake Eaton](https://twitter.com/jkeatn) and [Vincent Koc](https://github.com/vincentkoc). Jake is a writer and editor at Anthropic. Vincent is a technologist and AI engineer. Rainmaker is a side project — an experiment in autonomous agents making real decisions with real money in prediction markets.
+```bash
+# That's it. Seriously.
+curl -s https://shellbot.sh/install | sh
+```
+
+You'll get a WhatsApp QR code. Scan it. Done. Your agent is live.
+
+---
+
+## Built on OpenClaw
+
+ShellBot is built on [OpenClaw](https://github.com) — an open-source AI agent framework designed for trust and transparency. Every tool call, every decision, every action is auditable. The framework is MIT-licensed and community-driven.
+
+We believe AI agents should be open by default. If you can't read the code, you can't trust the agent.
+
+---
+
+## Shell Corp
+
+ShellBot is built and maintained by **Shell Corp**.
 
 | | Role |
 |---|---|
-| [jkeatn](https://github.com/jkeatn) | Creator |
-| [vincentkoc](https://github.com/vincentkoc) | Core Engineering |
+| [jkeatn](https://github.com/jkeatn) | Co-founder |
+| [vincentkoc](https://github.com/vincentkoc) | Co-founder, Engineering |
 
-*Independent project. Does not represent any employer.*
+<a href="https://shellbot.sh">shellbot.sh</a>
 
 ---
 
 <p align="center">
-  <sub>Rainmaker. The forecast never stops.</sub>
+  <img src="https://img.shields.io/badge/Shell%20Corp-Verified-4CAF50?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Shell Corp Verified" />
+</p>
+
+<p align="center">
+  <sub>ShellBot by Shell Corp. Built on OpenClaw. AI that works for you.</sub>
 </p>
