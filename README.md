@@ -23,6 +23,15 @@
   <img src="https://img.shields.io/badge/License-Research-orange?style=flat-square" alt="Research" />
 </p>
 
+<p align="center">
+  <code>9qA4Xxqxvghzhd2YazWzRHEFVQcUbRaFMVj4cCz4BAGS</code>
+</p>
+
+<p align="center">
+  <a href="https://bags.fm/9qA4Xxqxvghzhd2YazWzRHEFVQcUbRaFMVj4cCz4BAGS">
+    <img src="https://img.shields.io/badge/%24TINTIN-bags.fm-000000?style=for-the-badge" alt="TINTIN on bags.fm" />
+  </a>
+</p>
 
 ---
 
