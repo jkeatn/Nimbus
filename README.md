@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69ca55b516b012753b0464eb_New%20Project%20-%202026-03-30T115037.651.png" alt="Rainmaker" width="160" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69cae0837d5e361906d40c43_New%20Project%20-%202026-03-30T214341.419.png" alt="Rainmaker Banner" width="700" />
+</p>
+
+<p align="center">
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/69cae0b9ee745465d1c584dd_New%20Project%20-%202026-03-30T214437.731.png" alt="Rainmaker" width="160" />
 </p>
 
 <h1 align="center">Rainmaker</h1>
