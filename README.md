@@ -28,6 +28,10 @@
   <img src="https://img.shields.io/badge/Runtime-24%2F7-000000?style=flat-square" alt="24/7" />
 </p>
 
+<p align="center">
+  <code>EXKGb2SNA9D7umDm7kDGvMMoZDb6Tiz32K27zRKTBAGS</code>
+</p>
+
 ---
 
 ## What is Rainmaker?
